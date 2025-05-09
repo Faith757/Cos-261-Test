@@ -8,16 +8,19 @@ public class HelloWorld {
 
 
         SECOND CODE:
-String a = new String("hi");
-String b = new String("hi");
-
+public Class Comparism2{
+public static void main (String[]args){
+String x = new String("hi");
+String y= new String("hi");
 System.out.println(x == y);        // false: compares references
 System.out.println(x.equals(y));   // true: compares string contents
+}
+}
 
-
+       
+        
         THIRD CODE:
 import java.util.Scanner;
-
 public class Addintegers{
     public static void main(String[] args) {
         int Sum=0;
@@ -33,19 +36,27 @@ public class Addintegers{
 
 
         FOURTH CODE:
-int n = 20;
+public class EvenOdd {
+public static void main (String[]args){
+      int n = 20;
           if (n % 2 == 0) {
               System.out.println(n + " is       even");// display if n is even
          } else {
     System.out.println(n + " is odd");//  display if n is odd
+    }
 }
 
+        
         FIFTH CODE:
+public class MaxNum {
+public static void main (String[]args){
 int a = 4, b = 6, c = 10;
            int max = a;
           if (b > max) max = b;
           if (c > max) max = c;
-        System.out.println("Largest is " + max);// display the largest number
+    System.out.println("Largest is " + max);// display the largest number
+    }
+    }
 
 
 
@@ -57,7 +68,6 @@ public class MultiplicationTable {
 for (int i = 1; i <= 12; i++) {
     System.out.println(n + " x " + i + " = " + (n * i));
 }
-
     }
 }
 
