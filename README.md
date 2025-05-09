@@ -129,7 +129,7 @@ void testAverage() {
 }
 
 
-      TWELVETH MONTH:
+      TWELVETH CODE:
 /**
  * Calculates the factorial of a non-negative integer.
  *
